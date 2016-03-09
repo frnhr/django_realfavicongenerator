@@ -13,8 +13,9 @@ add more of those fancy mobile formats.
 ## Installation
 
   *  ~~`$ pip install django-realfavicongenerator`~~ (comming soon...)  
-     Drop `realfavicongenerator` somewhere in your project (i.e. on PYTHONPATH)
-  * Add 'realfavicongenerator' to `INSTALLED_APPS`.
+     Instead: just copy `realfavicongenerator` directory somewhere in your 
+     project (i.e. somewhere on PYTHONPATH)
+  * Add `'realfavicongenerator'` to `INSTALLED_APPS`.
   * Add `url('', include('realfavicongenerator.urls')),` to `urls.py`
 
 You are done. Of course, there are no favicons yet, we need to add them. 
@@ -31,10 +32,10 @@ Three things need to be done:
 
 ### 1. 
 
-Put all favicon files in static files in `realfavicongenerator` dorectory.
+Put all favicon files in static files in `realfavicongenerator` directory.
 This includes things like `manifest.json` too.
  
-There is usually one app that is "in charge" of the HTML rendering. In its 
+There is usually one app that is "in charge" of the HTML rendering. In its
 `static` directory, create new `realfavicongenerator` directory and pul all 
 your favicon files there. 
 
@@ -68,6 +69,11 @@ directory.
 
 For details, look in `realfavicongenerator/urls.py`.
 There is nothing more to it.
+
+
+## This repository
+
+... contains a demo project. It ~~is~~ will be also used to build PyPI package.
 
 
 ## Dependencies
