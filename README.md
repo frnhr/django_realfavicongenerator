@@ -1,6 +1,8 @@
 # Django-realfavicongenerator
 
 Simple favicons for Dajngo! And no messin.
+
+v.0.1.0
   
 Get all devices covered, using the awesoem generator at 
 http://realfavicongenerator.net/ (hence the name).
