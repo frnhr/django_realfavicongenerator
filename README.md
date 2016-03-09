@@ -12,7 +12,8 @@ add more of those fancy mobile formats.
 
 ## Installation
 
-  *  `$ pip install django-realfavicongenerator`
+  *  ~~`$ pip install django-realfavicongenerator`~~ (comming soon...)  
+     Drop `realfavicongenerator` somewhere in your project (i.e. on PYTHONPATH)
   * Add 'realfavicongenerator' to `INSTALLED_APPS`.
   * Add `url('', include('realfavicongenerator.urls')),` to `urls.py`
 
@@ -72,6 +73,10 @@ There is nothing more to it.
 ## Dependencies
 
 None
+
+Tested with Django 1.9 and Python 2.7.
+
+It is so dead simple that I expect it to work across the ages past and future.
 
 
 ## Contributing
