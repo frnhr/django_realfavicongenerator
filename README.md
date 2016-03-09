@@ -1,10 +1,10 @@
 # Django-realfavicongenerator
 
-Simple favicons for Dajngo! And no messin.
+Simple favicons for Django! And no messin.
 
 v.0.1.0
   
-Get all devices covered, using the awesoem generator at 
+Get all devices covered, using the awesome generator at 
 http://realfavicongenerator.net/ (hence the name).
 
 Or don't! it's completely optional. You perfectly can use this for only 
@@ -14,7 +14,7 @@ add more of those fancy mobile formats.
 
 ## Installation
 
-  *  ~~`$ pip install django-realfavicongenerator`~~ (comming soon...)  
+  *  ~~`$ pip install django-realfavicongenerator`~~ (coming soon...)  
      Instead: just copy `realfavicongenerator` directory somewhere in your 
      project (i.e. somewhere on PYTHONPATH)
   * Add `'realfavicongenerator'` to `INSTALLED_APPS`.
